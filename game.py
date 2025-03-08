@@ -29,7 +29,7 @@ def snowman(snowman_word):
             print(f"The letter {user_input} is not in the word")
             wrong_guesses_list.append(user_input)
 
-        print_snowman(len(wrong_guesses_list))
+        print_snowman_graphic(len(wrong_guesses_list))
         print(f"Wrong guesses: {wrong_guesses_list}")
 
         if is_word_guessed(snowman_word, correct_letter_guess_statuses):
