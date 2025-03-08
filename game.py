@@ -37,7 +37,7 @@ def snowman(snowman_word):
             break
 
         if len(wrong_guesses_list) == SNOWMAN_MAX_WRONG_GUESSES:
-            print(f"Sorry, you lose! The word was: {snowman_word}")
+            print(f"Sorry, you lose! The word was {snowman_word}")
 
 
 def print_snowman_graphic(wrong_guesses_count):
